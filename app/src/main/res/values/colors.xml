@@ -10,4 +10,5 @@
     <color name="sand">#DECBA4</color>
     <color name="blue_sand">#3E5151</color>
     <color name="amber">#FFC107</color>
+    <color name="transparent">#00000000</color>
 </resources>
