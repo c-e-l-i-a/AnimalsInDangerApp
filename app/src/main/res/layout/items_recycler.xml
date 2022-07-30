@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/blue_sand"
+    app:cardCornerRadius="8dp"
+    android:elevation="4dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgItems"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            tools:src="@drawable/tiger_icon"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/titleItems"
+            android:layout_toEndOf="@+id/imgItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/saira"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:text="Le TIGRE"
+            android:textColor="@color/amber">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textItems"
+            android:layout_toEndOf="@+id/imgItems"
+            android:layout_below="@+id/titleItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            tools:text="Sauvé de justesse de l’extinction il y a quelques années, à l’époque où la chasse aux trophées était à la mode, le tigre est un super-prédateur connu pour être le plus grand félin sauvage."
+            android:maxLines="5"
+            android:ellipsize="end"
+            android:textSize="14dp"
+            android:fontFamily="@font/saira">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">AnimalsDangerApp</string>
-    
+
     <string-array name="family_species">
         <item>Post 1</item>
         <item>Post 2</item>
         <item>Post 3</item>
         <item>Post 4</item>
     </string-array>
-    
+
 </resources>

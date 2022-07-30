@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <androidx.cardview.widget.CardView
-
+            android:id="@+id/mammals_card1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -110,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/saira"
                     android:textStyle="bold"
-                    android:text="Mammifère"
+                    android:text="Oiseaux"
                     android:textSize="16dp">
 
                 </TextView>
@@ -149,7 +149,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/saira"
-                    android:text="Mammifère"
+                    android:text="Réptile"
                     android:textSize="16dp">
                 </TextView>
 
@@ -187,7 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/saira"
-                    android:text="Mammifère"
+                    android:text="Poisson"
                     android:textSize="16dp">
                 </TextView>
 
@@ -225,7 +225,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/saira"
-                    android:text="Mammifère"
+                    android:text="Amphibiens"
                     android:textSize="16dp">
                 </TextView>
 
@@ -263,7 +263,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/saira"
-                    android:text="Mammifère"
+                    android:text="Insecte"
                     android:textSize="16dp">
                 </TextView>
 

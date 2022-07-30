@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/celia/AndroidStudioProjects/AnimalsDangerApp/app/src/main/res/drawable/bg_app_grad.xml" value="0.167" />
-        <entry key="..\:/Users/celia/AndroidStudioProjects/AnimalsDangerApp/app/src/main/res/layout/activity_home.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/celia/AndroidStudioProjects/AnimalsDangerApp/app/src/main/res/layout/activity_home.xml" value="0.19572649572649573" />
         <entry key="..\:/Users/celia/AndroidStudioProjects/AnimalsDangerApp/app/src/main/res/layout/activity_main.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/celia/AndroidStudioProjects/AnimalsDangerApp/app/src/main/res/layout/activity_mammals.xml" value="0.18795289855072464" />
         <entry key="..\:/Users/celia/AndroidStudioProjects/AnimalsDangerApp/app/src/main/res/layout/item_post_species.xml" value="0.1" />
+        <entry key="..\:/Users/celia/AndroidStudioProjects/AnimalsDangerApp/app/src/main/res/layout/items_recycler.xml" value="0.19199999414062519" />
       </map>
     </option>
   </component>
